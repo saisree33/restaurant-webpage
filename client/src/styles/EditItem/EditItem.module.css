@@ -1,0 +1,43 @@
+.form {
+  width: 400px;
+  margin: 0 auto;
+  color: #525252;
+}
+
+.form .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.form .buttons .edit_item {
+  color:white;
+  font-size: 14px;
+  margin-right: 5px;
+  padding: 6px 12px 6px 10px;
+  background: #02530c;
+}
+
+.form .buttons .link {
+  background: #ee1414;
+  border-radius: 5px;
+  padding: 10px 12px 10px 9px;
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form .buttons .link :first-child {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=EditItem.module.css.map */
