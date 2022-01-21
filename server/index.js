@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-    "mongodb://localhost:27017/admin"
+    "mongodb+srv://assignment:assignment@cluster0.f8kbc.mongodb.net/test"
 );
 
 app.post("/insert", async (req, res) => {
